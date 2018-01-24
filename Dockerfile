@@ -9,4 +9,4 @@ COPY  garlicoin.conf /root/.garlicoin/.
 
 EXPOSE 42070 42070
 
-ENTRYPOINT /root/14.5-x86_64-unknown-linux-gnu/bin/garlicoind -printtoconsole
+ENTRYPOINT /root/14.5-x86_64-unknown-linux-gnu/bin/garlicoind
